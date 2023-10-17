@@ -93,7 +93,6 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
     border-top: .1rem solid black;
     height: 6rem;
 }
@@ -101,5 +100,4 @@ nav {
 .nav_imgs{
     width: 4rem;
     height: 4rem;
-
 }
