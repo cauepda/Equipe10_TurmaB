@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.img_config {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 1rem;
+}
+
+.school_img_index {
+    width: 12rem;
+    height: 12rem;
+    margin: 8rem 0 0;
+}
+
+.botao_alunos{
+    display: flex;
+    width: 22rem;
+    flex-direction: row;
+    border: .1rem solid black;
+    border-radius: 1rem;
+    /* border-bottom-right-radius: 1rem; */
+
+    text-decoration: none;
+    color: black;
+
+    background-color: rgb(205, 205, 205);
+
+    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.infos_alunos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.alunos {
+    font-size: 1.5rem;
+}
+
+.alunos_img {
+    width: 6rem;
+    border-right: .1rem solid black;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
