@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.header_voltar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    margin: 1rem 0 0 1rem;
+
+    text-decoration: none;
+    color: black;
+    border: .1rem solid black;
+
+    border-radius: 1rem;
+
+    background-color: rgb(205, 205, 205);
+}
+
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    border-top: .1rem solid black;
+    height: 6rem;
+}
+
+.nav_imgs{
+    width: 4rem;
+    height: 4rem;
+
+}
