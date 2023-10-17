@@ -1,81 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notas</title>  
+    <link rel="stylesheet" href="css/style_tela_3.css">
+    <title>Notas</title>
 </head>
 
 <body>
     <header>
-        <a href="tela_2_menu.html">
-            <img src="img/100x100.png" alt="Três barrinhas">
+        <div class="header_header">
+            <a href="tela_2_menu.html">
+                <img class="header_imgs" src="img/menu-aberto.png" alt="Três barrinhas">
+            </a>
+            <!-- imagem da escola (logo)-->
+            <img src="https://via.placeholder.com/100x60" alt="Logo escola">
+
+            <a href="Pesquisa">
+                <img class="header_imgs" src="img/lupa.png" alt="lupa">
+            </a>
+        </div>
+
+        <a class="header_voltar" href="tela_3_notas.html">
+            <img class="voltar_img" src="img/circulo-de-flecha.png" alt="Seta voltar">
+            <p>Voltar</p>
         </a>
 
-        <img src="img/100x100.png" alt = "Logo escola">
-
-        <a href="Pesquisa">
-            <img src="img/lupa.png" alt = "lupa">
-        </a>
     </header>
 
     <main>
-        <h1>Notas</h1>
-
+        <h1 class="caixa_notas">Notas</h1>
+        <div class="notas_materias">
             <a href="tela_4_historia.html">
                 <h2>Historia</h2>
                 <p>Média:
-                    Lição de casa:  
+                    Lição de casa:
                 </p>
             </a>
 
             <a href="tela_4_matematica.html">
                 <h2>Matemática</h2>
                 <p>Média:
-                    Lição de casa:  
+                    Lição de casa:
                 </p>
             </a>
 
-            <a href="tela_4_portugues.html">        
+            <a href="tela_4_portugues.html">
                 <h2>Português</h2>
                 <p>Média:
-                    Lição de casa:  
+                    Lição de casa:
                 </p>
             </a>
 
-            <a href="tela_4_ciencias.html">        
+            <a href="tela_4_ciencias.html">
                 <h2>Ciências</h2>
                 <p>Média:
-                    Lição de casa:  
+                    Lição de casa:
                 </p>
             </a>
+        </div>
     </main>
 
     <nav>
         <!-- setup menu padrão -->
         <!-- colocar imagem das 3 barras -->
         <a href="tela_extra_avisos.html">
-            <img src="img/100x100.png" alt="Foto avisos">
-            <p>Avisos</p>
+            <img class="nav_imgs" src="img/avisos.png" alt="Foto avisos">
         </a>
 
         <!-- colocar imagem da casinha -->
         <a href="index.html">
-            <img src="img/100x100.png" alt="Foto home">
-            <p>Início</p>
+            <img class="nav_imgs" src="img/silhueta-de-icone-de-casa.png" alt="Foto home">
         </a>
 
         <!-- colocar imagem do calendário -->
         <a href="tela_6_calendario.html">
-            <img src="img/100x100.png" alt="Foto calendário">
-            <p>Calendário</p>
+            <img class="nav_imgs" src="img/calendario(2).png" alt="Foto calendário">
         </a>
 
         <!-- colocar imagem do e-mail -->
         <a href="tela_extra_caixa_entrada.html">
-            <img src="img/100x100.png" alt="foto caixa de entrada">
-            <p>Caixa de entrada</p>
+            <img class="nav_imgs" src="img/email.png" alt="foto caixa de entrada">
         </a>
     </nav>
 </body>
+
 </html>
