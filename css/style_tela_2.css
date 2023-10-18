@@ -2,7 +2,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 2rem;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: .1rem solid black;
+
 }
 
 .header_header {
@@ -93,10 +97,13 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    bottom: 0;
     border-top: .1rem solid black;
     height: 6rem;
+    background-color: white;
+    width: 100%;
 }
-
 .nav_imgs{
     width: 4rem;
     height: 4rem;

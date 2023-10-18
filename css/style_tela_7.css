@@ -11,6 +11,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: .1rem solid black;
+
 }
 
 .header_header {
@@ -36,6 +41,8 @@ header {
     border-radius: 1rem;
 
     background-color: rgb(205, 205, 205);
+    margin-bottom: .5rem;
+
 }
 
 .voltar_img {
@@ -54,37 +61,68 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 4rem;
-    margin-top: 4rem;    
+    margin-bottom: 7rem;
+    margin-top: 10rem;  
+    margin-left: 2rem;  
+    margin-right: 2rem;
 }
+
+main a {
+    flex-basis: calc(25% - 1.2rem); /* 25% de largura para cada link com espaço entre eles */
+    text-align: center;
+    margin: 0.6rem;
+    text-decoration: none;
+    color: black;
+    border: .1rem solid black;
+    padding: 1rem ;
+    border-radius: 1rem;
+    min-width: 15rem;
+}
+
 
 .comp_titulo {
     font-size: 3rem;
+    margin-top: .5rem ;
+    margin-bottom: 2rem;
 }
 
 .comportamento {
+    text-decoration: none;
     font-size: 1.8rem;
     border: .1rem solid black;
-    padding: 1rem 1rem;
+    padding: 1rem .6rem;
     border-radius: 1rem;
     background-color: rgb(205, 205, 205);
-    
+    text-align: center;
+    color: black;
 }
 
-li {
-    font-size: 1.4rem;
-    margin: .5rem 0;
+.satisfatorio{
+
+    color:  rgb(4, 191, 4);
 }
+
+.insatisfatorio{
+    color : rgb(255, 17, 17);
+
+}
+
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
+    position: fixed;
+    bottom: 0;
     border-top: .1rem solid black;
     height: 6rem;
+    background-color: white;
+    width: 100%;
 }
+
+
+
 
 .nav_imgs {
     width: 4rem;
