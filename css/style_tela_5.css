@@ -63,7 +63,6 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* margin-bottom: rem; */
 }
 
 .calendario {
@@ -76,8 +75,8 @@ main {
     background-color: rgb(205, 205, 205);
 }
 .calendario_imagem{
-    height: 20rem;
-    width: 35rem;
+    height: 12.5rem;
+    width: 12.5rem;
 }
 li {
     font-size: 1.4rem;
@@ -87,9 +86,10 @@ li {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end ;
     align-items: center;
     /* margin-bottom: rem; */
+    margin-bottom: 1rem;
 }
 nav {
     display: flex;
@@ -108,7 +108,7 @@ nav {
 
 .h2{
     font-size: .8rem;
-
+    margin-bottom: 0.3rem;
     border: .1rem solid black;
     padding: 1rem .6rem;
     border-radius: 1rem;
