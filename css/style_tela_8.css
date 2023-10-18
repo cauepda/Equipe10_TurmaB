@@ -76,7 +76,7 @@ main {
     background-color: rgb(205, 205, 205);
     text-align: center;
     margin-top: 2rem;
-    margin-bottom: 6.5rem;
+    margin-bottom: 2rem;
 
     
 }
@@ -92,13 +92,18 @@ main {
 }
 
 
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    bottom: 0;
     border-top: .1rem solid black;
     height: 6rem;
+    background-color: white;
+    width: 100%;
 }
 
 nav a{

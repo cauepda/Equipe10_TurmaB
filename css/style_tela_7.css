@@ -61,7 +61,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 7rem;
+    margin-bottom: rem;
     margin-top: 10rem;  
     margin-left: 2rem;  
     margin-right: 2rem;
