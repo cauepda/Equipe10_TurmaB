@@ -9,7 +9,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 0rem;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: .1rem solid black;
+
 }
 
 .header_header {
@@ -35,7 +39,10 @@ header {
     border-radius: 1rem;
 
     background-color: rgb(205, 205, 205);
+    margin-bottom: .5rem;
+
 }
+
 
 .voltar_img {
     width: 2rem;
@@ -44,6 +51,19 @@ header {
 .header_imgs {
     width: 4rem;
     height: 4rem;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 7rem;
+    margin-top:  10rem;    
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 .caixa_notas{
@@ -88,8 +108,12 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    bottom: 0;
     border-top: .1rem solid black;
     height: 6rem;
+    background-color: white;
+    width: 100%;
 }
 
 .nav_imgs{

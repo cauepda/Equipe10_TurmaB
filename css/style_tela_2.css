@@ -14,7 +14,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .header_voltar {
@@ -41,12 +41,11 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 4rem;
-    margin-top: 7rem;    
+
+       
 }
 
 main a {
-    flex-basis: calc(25% - 1.2rem); /* 25% de largura para cada link com espaço entre eles */
     text-align: center;
     margin: 0.6rem;
     text-decoration: none;
@@ -55,6 +54,8 @@ main a {
     padding: 1rem ;
     border-radius: 1rem;
     min-width: 15rem;
+    transform: translateY(55%);
+   
 }
 
 .calendario{
@@ -63,6 +64,7 @@ main a {
     padding: 1rem .6rem;
     border-radius: 1rem;
     background-color: rgb(205, 205, 205);
+    margin-top: 7rem; 
 }
 
 .notas{
