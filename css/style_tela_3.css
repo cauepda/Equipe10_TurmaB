@@ -35,13 +35,10 @@ header {
     align-items: center;
     width: 6rem;
     margin: 1rem 0 0 1rem;
-
     text-decoration: none;
     color: black;
     border: .1rem solid black;
-
     border-radius: 1rem;
-
     background-color: rgb(205, 205, 205);
     margin-bottom: .5rem;
 
@@ -102,7 +99,6 @@ main {
     margin-left: 3rem;
     margin-right: 3rem;
     background-color: rgb(205, 205, 205);
-    transform: translateY(50%);
     
 }
 
