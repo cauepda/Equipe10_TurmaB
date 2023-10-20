@@ -149,22 +149,22 @@ h2{
     margin-left: .5rem;
     width: 1rem;
     height: 1rem;
-    background-color: #41cc5b;
+    background-color: #d2edff;
 }
 
 .red_square {
     margin-left: .5rem;
     width: 1rem;
     height: 1rem;
-    background-color: #ff993b;
+    background-color: #48a3e0;
 }
 
 .red-day {
-    background-color: #ff993b;
+    background-color: #48a3e0;
 }
 
 .green-day {
-    background-color: #41cc5b;
+    background-color: #d2edff;
 }
 
 p {

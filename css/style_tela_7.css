@@ -92,18 +92,18 @@ main a {
     border: .1rem solid black;
     padding: 1rem .6rem;
     border-radius: 1rem;
-    background-color: white;
+    background-color: #e3e3e3;
     text-align: center;
     color: black;
 }
 
 .satisfatorio{
 
-    color:  hsl(204, 100%, 44%);
+    color: #000000;
 }
 
 .insatisfatorio{
-    color : rgb(255, 153, 0);
+    color : #000000;
 }
 
 
