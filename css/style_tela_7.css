@@ -13,7 +13,7 @@ header {
     justify-content: center;
     position: fixed;
     width: 100%;
-    background-color: white;
+    background-color: #0789e0;
     border-bottom: .1rem solid black;
 
 }
@@ -92,18 +92,18 @@ main a {
     border: .1rem solid black;
     padding: 1rem .6rem;
     border-radius: 1rem;
-    background-color: rgb(205, 205, 205);
+    background-color: #d2edff;
     text-align: center;
     color: black;
 }
 
 .satisfatorio{
 
-    color:  rgb(4, 191, 4);
+    color:  hsl(204, 100%, 44%);
 }
 
 .insatisfatorio{
-    color : rgb(255, 17, 17);
+    color : rgb(255, 153, 0);
 
 }
 
