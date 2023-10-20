@@ -39,12 +39,11 @@ main {
     flex-direction: row;
     border: .1rem solid black;
     border-radius: 1rem;
-    /* border-bottom-right-radius: 1rem; */
 
     text-decoration: none;
     color: black;
 
-    background-color: rgb(205, 205, 205);
+    background-color: #e3e3e3;
 
     box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.4);
     cursor: pointer;
@@ -56,6 +55,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
+    font-family: 'Lora', serif;
 }
 
 .alunos {

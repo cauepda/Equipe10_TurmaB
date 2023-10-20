@@ -4,7 +4,6 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
 header {
@@ -13,9 +12,8 @@ header {
     justify-content: center;
     position: fixed;
     width: 100%;
-    background-color: #0789e0;
+    background-color: #d2edff;
     border-bottom: .1rem solid black;
-
 }
 
 .header_header {
@@ -40,9 +38,10 @@ header {
 
     border-radius: 1rem;
 
-    background-color: rgb(205, 205, 205);
+    
     margin-bottom: .5rem;
-
+    font-family: 'Lora', serif;
+    background-color: #e3e3e3;
 }
 
 .voltar_img {
@@ -57,7 +56,6 @@ header {
 main {
     flex-grow: 1;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -77,6 +75,7 @@ main a {
     padding: 1rem ;
     border-radius: 1rem;
     min-width: 15rem;
+    font-family: 'Lora', serif;
 }
 
 
@@ -84,6 +83,7 @@ main a {
     font-size: 3rem;
     margin-top: .5rem ;
     margin-bottom: 2rem;
+    font-family: 'Lora', serif;
 }
 
 .comportamento {
@@ -92,7 +92,7 @@ main a {
     border: .1rem solid black;
     padding: 1rem .6rem;
     border-radius: 1rem;
-    background-color: #d2edff;
+    background-color: white;
     text-align: center;
     color: black;
 }
@@ -104,7 +104,6 @@ main a {
 
 .insatisfatorio{
     color : rgb(255, 153, 0);
-
 }
 
 
@@ -117,12 +116,9 @@ nav {
     bottom: 0;
     border-top: .1rem solid black;
     height: 6rem;
-    background-color: white;
+    background-color: #d2edff;;
     width: 100%;
 }
-
-
-
 
 .nav_imgs {
     width: 4rem;
