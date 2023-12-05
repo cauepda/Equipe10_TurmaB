@@ -24,6 +24,15 @@ document.addEventListener('DOMContentLoaded', function () {
             link.style.borderColor = 'red'
 
             if (!link.classList.length) {
+                if (extras.querySelectorAll('p')){
+                    extra = extras.querySelectorAll('p')
+    
+                    extra.forEach(function(cada_extra){
+                        extras.removeChild(cada_extra)
+                    })
+                    extras.classList.remove('extras')
+                }
+                
                 dia = link.querySelector('p')
                 dia_num = dia.textContent
 
